@@ -1,0 +1,7 @@
+n=int(input("enter the number:"))
+if(n==2):
+  print("even prime")
+elif(n%n==0 and n%2!=0):
+  print("prime")
+else:
+  print("not prime")
